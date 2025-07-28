@@ -2,9 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 from openpyxl import Workbook
 
-def putValuesInExcel(name,description,habitat,lifespan,diet) :
+def putValuesInExcel(name,fact,habitat,lifespan,diet) :
     activeWorkSheet.append([name,fact,habitat,lifespan,diet])
-
     
 wb = Workbook()
 
